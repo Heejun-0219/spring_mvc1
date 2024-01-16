@@ -18,8 +18,6 @@ public class ServletApplication {
 	// 하지만 싱글톤 객체를 여러개 생성하는 것은 비효율적임
 	// 그래서 서블릿은 싱글톤으로 관리하면서 멀티 쓰레드 환경에서 안전하게 개발할 수 있도록 지원함
 	// 멀티 쓰레드 환경에서 싱글톤 객체를 안전하게 사용하는 방법은 여러가지가 있음
-	// 여기서는 서블릿이 멀티 쓰레드 환경에서 안전하게 개발할 수 있도록 지원하는 방법을 알아봄
-	//
 	public static void main(String[] args) {
 		SpringApplication.run(ServletApplication.class, args);
 	}
